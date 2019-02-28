@@ -1,21 +1,3 @@
-/*#include<Windows.h>
-#include<stdio.h>
-#include<iostream>
-#include<tchar.h>
-using namespace std;
-
-int main()
-	{
-	char ansi[] = "ansi-string";
-	wchar_t widechar[] = L"widecharacter-string";
-	bool ret;
-	if (IsTextUnicode(ansi, strlen(ansi), NULL))
-		cout << "given is a unicode text" << endl;
-	else
-		cout << "not a unicode text ";
-
-	system("pause");
-	}*/
 #include<stdio.h>
 #include<windows.h>
 int main()

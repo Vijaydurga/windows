@@ -13,11 +13,11 @@ int _tmain(int argc, LPTSTR argv[])
 {
 	HANDLE hFile;                    //creating handle to file
 	TCHAR buffer[BUFFSIZE]=L"got it";
-
-	/*if (argc != 2) {
+	
+	if (argc != 2) {
 		printf("pass file name to open\n");
 		return FALSE;
-	}*/
+	}
 
 	//to create a new file
 	hFile = CreateFile(argv[1],

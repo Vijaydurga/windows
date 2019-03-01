@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\inheritance\source.cpp(30): warning C4477: 'wprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'HANDLE'
+  inheritance.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\inheritance.exe
+  inheritance.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\inheritance.pdb (Full PDB)

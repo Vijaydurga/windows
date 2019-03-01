@@ -1,12 +1,11 @@
 
 //To open an existing file ,read its contents and print them to the console untill the end of the file
 
-
 #include<Windows.h>
 #include<tchar.h>
 #include<stdio.h>
 
-//
+//defining buffer size to store the contents of the file
 #define BUFFSIZE 10
 
 int _tmain(int argc, LPTSTR argv[])
@@ -41,9 +40,8 @@ int _tmain(int argc, LPTSTR argv[])
 	// reading the contents of the file into the buffer
 	while (1)
 	{
-		memset(buffer,0,BUFFSIZE);
-		//ZeroMemory(buffer, BUFFSIZE);
-		BOOL ret = ReadFile(hFile, buffer, BUFFSIZE, &dwNbr, NULL);
+		ZeroMemory(buffer, BUFFSIZE);       
+		BOOL ret = ReadFile(hFile, buffer, BUFFSIZE, &dwNbr, NULL);   //reading each word in the file
 		if (ret == 0)
 		{
 			_tprintf(_T("cannot read file"));
@@ -51,7 +49,7 @@ int _tmain(int argc, LPTSTR argv[])
 			CloseHandle(hFile);
 			return FALSE;
 		}
-		else if (ret == TRUE && dwNbr == 0)
+		else if (ret == TRUE && dwNbr == 0)  //chec
 		{
 			_tprintf(_T("Reached End Of File"));
 			CloseHandle(hFile);
@@ -59,17 +57,17 @@ int _tmain(int argc, LPTSTR argv[])
 		}
 		else
 		{
-			/*for (int i = 0; i < dwNbr; i++)
+			for (int i = 0; i < dwNbr; i++)
 			{
 				printf("%c",buffer[i]);
-			}*/
+			}
 			printf("%s\n",buffer);
 		}
 
 	}// end while
 	//printing the contents of the file
 	
-	//_tprintf(_T("Contents of file (%s):% \n"), argv[1], buffer);
+	_tprintf(_T("Contents of file (%s):% \n"), argv[1], buffer);
 	getchar();
 	return 0;
 }

@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\using_functions\source.cpp(15): warning C4101: 'hThread': unreferenced local variable
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\using_functions\source.cpp(14): warning C4101: 'hProcess': unreferenced local variable
+  using_functions.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\using_functions.exe
+  using_functions.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\using_functions.pdb (Full PDB)

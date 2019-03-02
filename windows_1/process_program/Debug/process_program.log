@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\process_program\source.cpp(23): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\process_program\source.cpp(24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\process_program\source.cpp(32): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\process_program\source.cpp(33): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  process_program.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\process_program.exe
+  process_program.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\process_program.pdb (Full PDB)

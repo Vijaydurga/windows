@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\vijaydurga\windows\windows_1\priority\source.cpp(10): warning C4101: 'dwPriorityClass': unreferenced local variable
+  priority.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\priority.exe
+  priority.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\windows\windows_1\Debug\priority.pdb (Full PDB)
